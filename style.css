@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Inknut+Antiqua|Josefin+Sans|Poppins:300|Quicksand|Tangerine');html,
+body,
+header,
+#intro{
+    height: 100%;
+}
+
+#intro{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/lapdoc.jpg) no-repeat center center fixed; 
+    background-size: cover;
+
+}
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.height{
+    min-height: 100vh;
+} 
+
+.navbar-light{
+    background:#f8f9fa !important;
+    padding: 10px 20px;
+    border: 0;
+    box-shadow: 0.1px 0.1px 18px rgba(0,0,0,.5);
+}
+
+.navbar-brand{
+    font-size: 26px;
+    color: black!important;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.title-underline{
+    width: 220px;
+    height: 7px;
+}
+
+.height-80{
+    min-height: 80vh;
+} 
+
+h4{
+font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 .showcase{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about-img{
+    background:  url(./img/member4.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+footer{
+    padding: 30px;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .navbar-light{
+        box-shadow: none;
+        padding: 10px 0px;
+    }
+
+    .navbar-light .navbar-collapse{
+        background:#f8f9fa !important;
+        margin: 5px 0px 0px 10px;
+        box-shadow: 0.1px 0.1px 18px rgba(0,0,0,.08);
+
+
+    }
+
+
+    #my-bs{
+        box-shadow: 0.1px 0.1px 18px rgba(0,0,0,.08);
+        background:#f8f9fa !important;
+        padding: 10px 20px;
+        border:none;
+    }
+
+    
+}
